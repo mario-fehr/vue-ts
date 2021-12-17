@@ -1,5 +1,5 @@
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/mfehr94/vue-ts/main.svg)](https://results.pre-commit.ci/latest/github/mfehr94/vue-ts/main)
-![build](https://github.com/mfehr94/vue-ts/actions/workflows/build.yml/badge.svg)
+![ci](https://github.com/mfehr94/vue-ts/actions/workflows/ci.yml/badge.svg)
 
 # Vue 3 + Typescript + Vite
 
