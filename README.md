@@ -61,6 +61,18 @@ yarn format
 pre-commit install
 ```
 
+### Check files manually
+
+```
+pre-commit run --all-files
+```
+
+### Update pre-commit hooks
+
+```
+pre-commit autoupdate
+```
+
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur). Make sure to enable `vetur.experimental.templateInterpolationService` in settings!
@@ -84,3 +96,7 @@ Run `Volar: Switch TS Plugin on/off` from VSCode command palette.
 3. Open `src/main.ts` in VSCode
 4. Open the VSCode command palette
 5. Search and run "Select TypeScript version" -> "Use workspace version"
+
+## About
+
+This project was created with the help of a [dev.to](https://dev.to) series [Creating vite vue ts template](https://dev.to/imomaliev/series/13845).
