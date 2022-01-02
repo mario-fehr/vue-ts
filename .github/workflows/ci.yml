@@ -37,7 +37,7 @@ jobs:
             - name: Deploy
               # deploy only for version 16.x
               if: matrix.node-version == '16.x'
-              uses: JamesIves/github-pages-deploy-action@4.1.7
+              uses: JamesIves/github-pages-deploy-action@4.1.8
               with:
                   branch: gh-pages # The branch the action should deploy to.
                   folder: dist # The folder the action should deploy.
