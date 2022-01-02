@@ -1,7 +1,7 @@
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/mfehr94/vue-ts/main.svg)](https://results.pre-commit.ci/latest/github/mfehr94/vue-ts/main)
 ![ci](https://github.com/mfehr94/vue-ts/actions/workflows/ci.yml/badge.svg)
 
-# Vue 3 + Typescript + Vite + Jest
+# Vue 3 + Typescript + Vite + Vitest
 
 This template should help get you started developing with Vue 3 and Typescript in Vite.
 

@@ -14,24 +14,10 @@ module.exports = {
         ecmaVersion: 2021,
         sourceType: 'module',
     },
-    plugins: ['@typescript-eslint', 'jest'],
-    extends: [
-        'eslint:recommended',
-        'plugin:@typescript-eslint/recommended',
-        'plugin:vue/vue3-recommended',
-        'plugin:jest/recommended',
-        'prettier',
-    ],
+    plugins: ['@typescript-eslint'],
+    extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended', 'plugin:vue/vue3-recommended', 'prettier'],
     rules: {
         'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
         'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     },
-    overrides: [
-        {
-            files: ['**/__tests__/*.{j,t}s?(x)', '**/tests/unit/**/*.spec.{j,t}s?(x)'],
-            env: {
-                jest: true,
-            },
-        },
-    ],
 };

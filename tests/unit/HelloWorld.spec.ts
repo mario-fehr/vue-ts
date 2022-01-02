@@ -1,3 +1,4 @@
+import { describe, it, expect } from 'vitest';
 import { shallowMount } from '@vue/test-utils';
 import HelloWorld from '@/components/HelloWorld.vue';
 
@@ -8,5 +9,6 @@ describe('HelloWorld.vue', () => {
             props: { msg },
         });
         expect(wrapper.text()).toMatch(msg);
+        expect(wrapper.html()).toMatchSnapshot();
     });
 });
