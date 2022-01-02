@@ -16,43 +16,43 @@ degit user/repo
 ### Install dependencies
 
 ```
-yarn install
+pnpm install
 ```
 
 ### Compiles and hot-reloads for development
 
 ```
-yarn dev
+pnpm dev
 ```
 
 ### Compiles and minifies for production
 
 ```
-yarn build
+pnpm build
 ```
 
 ### Preview build
 
 ```
-yarn serve
+pnpm serve
 ```
 
 ### Run your unit tests
 
 ```
-yarn test
+pnpm test
 ```
 
 ### Lint
 
 ```
-yarn lint
+pnpm lint
 ```
 
 ### Fix files
 
 ```
-yarn format
+pnpm format
 ```
 
 ## Install pre-commit hooks
