@@ -13,7 +13,7 @@ specifiers:
     prettier: ^2.5.1
     typescript: ^4.5.4
     vite: ^2.7.2
-    vitest: 0.0.128
+    vitest: 0.0.129
     vue: ^3.2.25
     vue-eslint-parser: ^8.0.1
     vue-tsc: 0.30.1
@@ -34,7 +34,7 @@ devDependencies:
     prettier: 2.5.1
     typescript: 4.5.4
     vite: 2.7.10
-    vitest: 0.0.128_c8@7.11.0+jsdom@19.0.0
+    vitest: 0.0.129_c8@7.11.0+jsdom@19.0.0
     vue-eslint-parser: 8.0.1_eslint@8.4.1
     vue-tsc: 0.30.1_typescript@4.5.4
 
@@ -3071,10 +3071,10 @@ packages:
             fsevents: 2.3.2
         dev: true
 
-    /vitest/0.0.128_c8@7.11.0+jsdom@19.0.0:
+    /vitest/0.0.129_c8@7.11.0+jsdom@19.0.0:
         resolution:
             {
-                integrity: sha512-a6rpX9HEr/bu0vPnCHj6UyXVxiiqP8mcvn776sw06zBNvMCD66aB82IxzM17kLs1NyRLtngthMMmwZuOBLIX3g==,
+                integrity: sha512-8Wd8AXcIPUGNNMidO72LQfRN6e8W44Q7c0YJo9jZwIq3uXysmtL5pfdeqCcSMMGijSkWZIpiF6TJesr7ETHPPg==,
             }
         engines: { node: '>=14.14.0' }
         hasBin: true
