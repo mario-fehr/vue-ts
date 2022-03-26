@@ -1,7 +1,7 @@
 // Vitest Snapshot v1
 
 exports[`App.vue > has header 1`] = `
-"<img alt=\\"Vue logo\\" src=\\"/src/assets/logo.png?import\\">
+"<img alt=\\"Vue logo\\" src=\\"/src/assets/logo.png\\">
 <h1 data-v-469af010=\\"\\">Hello Vue 3 + TypeScript + Vite</h1>
 <p data-v-469af010=\\"\\"> Recommended IDE setup: <a href=\\"https://code.visualstudio.com/\\" target=\\"_blank\\" data-v-469af010=\\"\\">VSCode</a> + <a href=\\"https://github.com/johnsoncodehk/volar\\" target=\\"_blank\\" data-v-469af010=\\"\\">Volar</a></p>
 <p data-v-469af010=\\"\\">See <code data-v-469af010=\\"\\">README.md</code> for more information.</p>
